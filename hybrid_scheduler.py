@@ -39,7 +39,7 @@ class Node:
         return f"Node({self.node_id}, {self.op})"
 
 class TaskGraph:
-    """Task Graph (DAG)"""
+    """Task Graph (DFG)"""
     def __init__(self):
         self.nodes: Dict[int, Node] = {}
         self.num_nodes = 0
