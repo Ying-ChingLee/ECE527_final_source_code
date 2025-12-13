@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" Usage: python list_scheduling.py graph.txt timing.txt constraints.txt --list """
+
 from __future__ import annotations
 import re
 import time
@@ -250,3 +252,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
